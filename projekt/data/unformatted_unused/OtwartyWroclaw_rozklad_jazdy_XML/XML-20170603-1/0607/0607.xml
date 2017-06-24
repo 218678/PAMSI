@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="iso-8859-2" ?>
+<linie>
+ <linia nazwa="607" typ="Podmiejska autobusowa" wazny_od="13.05.2017" wazny_do="">
+  <wariant id="1" nazwa="Kwiska - Biskupice Podgórne LG Electronics">
+   <przystanek id="12303" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12303" nazwa="Kwiska" czas="0"/>
+     <przystanek numer="1" id="12153" nazwa="Wrocławski Park Technologiczny" czas="8"/>
+     <przystanek numer="2" id="11712" nazwa="FAT" czas="13"/>
+     <przystanek numer="3" id="17103" nazwa="Wiejska" czas="17"/>
+     <przystanek numer="4" id="716101" nazwa="Biskupice Podgórne LG Display" czas="36"/>
+     <przystanek numer="5" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="37"/>
+     <przystanek numer="6" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="38"/>
+     <przystanek numer="7" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="39"/>
+     <przystanek numer="8" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="40"/>
+    </czasy>
+    <tabliczka id="1" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="05">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="00">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="54" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="19" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12153" nazwa="Wrocławski Park Technologiczny" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12153" nazwa="Wrocławski Park Technologiczny" czas="0"/>
+     <przystanek numer="1" id="11712" nazwa="FAT" czas="5"/>
+     <przystanek numer="2" id="17103" nazwa="Wiejska" czas="9"/>
+     <przystanek numer="3" id="716101" nazwa="Biskupice Podgórne LG Display" czas="28"/>
+     <przystanek numer="4" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="29"/>
+     <przystanek numer="5" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="30"/>
+     <przystanek numer="6" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="31"/>
+     <przystanek numer="7" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="32"/>
+    </czasy>
+    <tabliczka id="2" mc="7">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="00">
+       </min>
+       <min m="11">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="06">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="01" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="27" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="11712" nazwa="FAT" ulica="Grabiszyńska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="11712" nazwa="FAT" czas="0"/>
+     <przystanek numer="1" id="17103" nazwa="Wiejska" czas="4"/>
+     <przystanek numer="2" id="716101" nazwa="Biskupice Podgórne LG Display" czas="23"/>
+     <przystanek numer="3" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="24"/>
+     <przystanek numer="4" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="25"/>
+     <przystanek numer="5" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="26"/>
+     <przystanek numer="6" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="27"/>
+    </czasy>
+    <tabliczka id="3" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="04">
+       </min>
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="11">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="05" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="32" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="17103" nazwa="Wiejska" ulica="Solskiego" cechy="">
+    <czasy>
+     <przystanek numer="0" id="17103" nazwa="Wiejska" czas="0"/>
+     <przystanek numer="1" id="716101" nazwa="Biskupice Podgórne LG Display" czas="19"/>
+     <przystanek numer="2" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="20"/>
+     <przystanek numer="3" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="21"/>
+     <przystanek numer="4" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="22"/>
+     <przystanek numer="5" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="23"/>
+    </czasy>
+    <tabliczka id="4" mc="4">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="08">
+       </min>
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="09" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="36" ozn="G" przyp="G -  kurs tylko do parkingu przy LG Display">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716101" nazwa="Biskupice Podgórne LG Display" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716101" nazwa="Biskupice Podgórne LG Display" czas="0"/>
+     <przystanek numer="1" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="1"/>
+     <przystanek numer="2" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="2"/>
+     <przystanek numer="3" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="3"/>
+     <przystanek numer="4" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="4"/>
+    </czasy>
+    <tabliczka id="5" mc="19">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="27">
+       </min>
+       <min m="38">
+       </min>
+       <min m="42" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="34">
+       </min>
+       <min m="54" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716102" nazwa="Biskupice Podgórne LG Chem" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="0"/>
+     <przystanek numer="1" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="1"/>
+     <przystanek numer="2" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="2"/>
+     <przystanek numer="3" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="3"/>
+    </czasy>
+    <tabliczka id="6" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="39">
+       </min>
+       <min m="43" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="35">
+       </min>
+       <min m="55" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716103" nazwa="Biskupice Podgórne LG Innotek" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="0"/>
+     <przystanek numer="1" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="1"/>
+     <przystanek numer="2" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="2"/>
+    </czasy>
+    <tabliczka id="7" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="29">
+       </min>
+       <min m="40">
+       </min>
+       <min m="44" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" ulica="Współpracy" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="0"/>
+     <przystanek numer="1" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="1"/>
+    </czasy>
+    <tabliczka id="8" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="30">
+       </min>
+       <min m="41">
+       </min>
+       <min m="45" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="37">
+       </min>
+       <min m="57" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716106" nazwa="Biskupice Podgórne LG Electronics" ulica="Seulska" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="2" nazwa="Biskupice Podgórne LG Display - Zajezdnia Obornicka">
+   <przystanek id="716101" nazwa="Biskupice Podgórne LG Display" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716101" nazwa="Biskupice Podgórne LG Display" czas="0"/>
+     <przystanek numer="1" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="1"/>
+     <przystanek numer="2" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="2"/>
+     <przystanek numer="3" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="3"/>
+     <przystanek numer="4" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="4"/>
+    </czasy>
+    <tabliczka id="5" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="27">
+       </min>
+       <min m="38">
+       </min>
+       <min m="42" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="34">
+       </min>
+       <min m="54" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716102" nazwa="Biskupice Podgórne LG Chem" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="0"/>
+     <przystanek numer="1" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="1"/>
+     <przystanek numer="2" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="2"/>
+     <przystanek numer="3" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="3"/>
+    </czasy>
+    <tabliczka id="6" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="39">
+       </min>
+       <min m="43" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="35">
+       </min>
+       <min m="55" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716103" nazwa="Biskupice Podgórne LG Innotek" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="0"/>
+     <przystanek numer="1" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="1"/>
+     <przystanek numer="2" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="2"/>
+    </czasy>
+    <tabliczka id="7" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="29">
+       </min>
+       <min m="40">
+       </min>
+       <min m="44" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" ulica="Współpracy" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="0"/>
+     <przystanek numer="1" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="1"/>
+    </czasy>
+    <tabliczka id="8" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="30">
+       </min>
+       <min m="41">
+       </min>
+       <min m="45" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="37">
+       </min>
+       <min m="57" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716106" nazwa="Biskupice Podgórne LG Electronics" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="0"/>
+     <przystanek numer="1" id="17104" nazwa="Wiejska" czas="19"/>
+     <przystanek numer="2" id="11707" nazwa="FAT" czas="23"/>
+     <przystanek numer="3" id="12150" nazwa="Wrocławski Park Technologiczny" czas="26"/>
+     <przystanek numer="4" id="112206" nazwa="Kwiska" czas="33"/>
+     <przystanek numer="5" id="12315" nazwa="Wejherowska" czas="36"/>
+     <przystanek numer="6" id="12320" nazwa="Hala Orbita" czas="38"/>
+     <przystanek numer="7" id="23110" nazwa="most Milenijny" czas="39"/>
+     <przystanek numer="8" id="23154" nazwa="Obornicka (Obwodnica)" czas="42"/>
+     <przystanek numer="9" id="23152" nazwa="Irysowa" czas="44"/>
+     <przystanek numer="10" id="9" nazwa="Zajezdnia Obornicka" czas="45"/>
+    </czasy>
+    <tabliczka id="9" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="46" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="24">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="17104" nazwa="Wiejska" ulica="Solskiego" cechy="">
+    <czasy>
+     <przystanek numer="0" id="17104" nazwa="Wiejska" czas="0"/>
+     <przystanek numer="1" id="11707" nazwa="FAT" czas="4"/>
+     <przystanek numer="2" id="12150" nazwa="Wrocławski Park Technologiczny" czas="7"/>
+     <przystanek numer="3" id="112206" nazwa="Kwiska" czas="14"/>
+     <przystanek numer="4" id="12315" nazwa="Wejherowska" czas="17"/>
+     <przystanek numer="5" id="12320" nazwa="Hala Orbita" czas="19"/>
+     <przystanek numer="6" id="23110" nazwa="most Milenijny" czas="20"/>
+     <przystanek numer="7" id="23154" nazwa="Obornicka (Obwodnica)" czas="23"/>
+     <przystanek numer="8" id="23152" nazwa="Irysowa" czas="25"/>
+     <przystanek numer="9" id="9" nazwa="Zajezdnia Obornicka" czas="26"/>
+    </czasy>
+    <tabliczka id="10" mc="19">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="05" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="38" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="11707" nazwa="FAT" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="11707" nazwa="FAT" czas="0"/>
+     <przystanek numer="1" id="12150" nazwa="Wrocławski Park Technologiczny" czas="3"/>
+     <przystanek numer="2" id="112206" nazwa="Kwiska" czas="10"/>
+     <przystanek numer="3" id="12315" nazwa="Wejherowska" czas="13"/>
+     <przystanek numer="4" id="12320" nazwa="Hala Orbita" czas="15"/>
+     <przystanek numer="5" id="23110" nazwa="most Milenijny" czas="16"/>
+     <przystanek numer="6" id="23154" nazwa="Obornicka (Obwodnica)" czas="19"/>
+     <przystanek numer="7" id="23152" nazwa="Irysowa" czas="21"/>
+     <przystanek numer="8" id="9" nazwa="Zajezdnia Obornicka" czas="22"/>
+    </czasy>
+    <tabliczka id="11" mc="4">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="09" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="42" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="47">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12150" nazwa="Wrocławski Park Technologiczny" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12150" nazwa="Wrocławski Park Technologiczny" czas="0"/>
+     <przystanek numer="1" id="112206" nazwa="Kwiska" czas="7"/>
+     <przystanek numer="2" id="12315" nazwa="Wejherowska" czas="10"/>
+     <przystanek numer="3" id="12320" nazwa="Hala Orbita" czas="12"/>
+     <przystanek numer="4" id="23110" nazwa="most Milenijny" czas="13"/>
+     <przystanek numer="5" id="23154" nazwa="Obornicka (Obwodnica)" czas="16"/>
+     <przystanek numer="6" id="23152" nazwa="Irysowa" czas="18"/>
+     <przystanek numer="7" id="9" nazwa="Zajezdnia Obornicka" czas="19"/>
+    </czasy>
+    <tabliczka id="12" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="12" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="45" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="50">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="112206" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="112206" nazwa="Kwiska" czas="0"/>
+     <przystanek numer="1" id="12315" nazwa="Wejherowska" czas="3"/>
+     <przystanek numer="2" id="12320" nazwa="Hala Orbita" czas="5"/>
+     <przystanek numer="3" id="23110" nazwa="most Milenijny" czas="6"/>
+     <przystanek numer="4" id="23154" nazwa="Obornicka (Obwodnica)" czas="9"/>
+     <przystanek numer="5" id="23152" nazwa="Irysowa" czas="11"/>
+     <przystanek numer="6" id="9" nazwa="Zajezdnia Obornicka" czas="12"/>
+    </czasy>
+    <tabliczka id="13" mc="7">
+     <dzien nazwa="w dni robocze">
+      <godz h="8">
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="57">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12315" nazwa="Wejherowska" ulica="Popowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12315" nazwa="Wejherowska" czas="0"/>
+     <przystanek numer="1" id="12320" nazwa="Hala Orbita" czas="2"/>
+     <przystanek numer="2" id="23110" nazwa="most Milenijny" czas="3"/>
+     <przystanek numer="3" id="23154" nazwa="Obornicka (Obwodnica)" czas="6"/>
+     <przystanek numer="4" id="23152" nazwa="Irysowa" czas="8"/>
+     <przystanek numer="5" id="9" nazwa="Zajezdnia Obornicka" czas="9"/>
+    </czasy>
+    <tabliczka id="14" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="8">
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="00">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="00">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12320" nazwa="Hala Orbita" ulica="Milenijna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12320" nazwa="Hala Orbita" czas="0"/>
+     <przystanek numer="1" id="23110" nazwa="most Milenijny" czas="1"/>
+     <przystanek numer="2" id="23154" nazwa="Obornicka (Obwodnica)" czas="4"/>
+     <przystanek numer="3" id="23152" nazwa="Irysowa" czas="6"/>
+     <przystanek numer="4" id="9" nazwa="Zajezdnia Obornicka" czas="7"/>
+    </czasy>
+    <tabliczka id="15" mc="2" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="8">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="02">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="02">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23110" nazwa="most Milenijny" ulica="most Milenijny" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23110" nazwa="most Milenijny" czas="0"/>
+     <przystanek numer="1" id="23154" nazwa="Obornicka (Obwodnica)" czas="3"/>
+     <przystanek numer="2" id="23152" nazwa="Irysowa" czas="5"/>
+     <przystanek numer="3" id="9" nazwa="Zajezdnia Obornicka" czas="6"/>
+    </czasy>
+    <tabliczka id="16" mc="1" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="8">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="03">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="03">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23154" nazwa="Obornicka (Obwodnica)" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23154" nazwa="Obornicka (Obwodnica)" czas="0"/>
+     <przystanek numer="1" id="23152" nazwa="Irysowa" czas="2"/>
+     <przystanek numer="2" id="9" nazwa="Zajezdnia Obornicka" czas="3"/>
+    </czasy>
+    <tabliczka id="17" mc="3" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="8">
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="06">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="06">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23152" nazwa="Irysowa" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23152" nazwa="Irysowa" czas="0"/>
+     <przystanek numer="1" id="9" nazwa="Zajezdnia Obornicka" czas="1"/>
+    </czasy>
+    <tabliczka id="18" mc="1" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="8">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="08">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="07">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="9" nazwa="Zajezdnia Obornicka" ulica="Obornicka" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="3" nazwa="Biskupice Podgórne LG Display - NOWY DWÓR (pętla)">
+   <przystanek id="716101" nazwa="Biskupice Podgórne LG Display" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716101" nazwa="Biskupice Podgórne LG Display" czas="0"/>
+     <przystanek numer="1" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="1"/>
+     <przystanek numer="2" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="2"/>
+     <przystanek numer="3" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="3"/>
+     <przystanek numer="4" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="4"/>
+    </czasy>
+    <tabliczka id="5" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="27">
+       </min>
+       <min m="38">
+       </min>
+       <min m="42" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="34">
+       </min>
+       <min m="54" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716102" nazwa="Biskupice Podgórne LG Chem" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="0"/>
+     <przystanek numer="1" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="1"/>
+     <przystanek numer="2" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="2"/>
+     <przystanek numer="3" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="3"/>
+    </czasy>
+    <tabliczka id="6" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="39">
+       </min>
+       <min m="43" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="35">
+       </min>
+       <min m="55" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716103" nazwa="Biskupice Podgórne LG Innotek" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="0"/>
+     <przystanek numer="1" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="1"/>
+     <przystanek numer="2" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="2"/>
+    </czasy>
+    <tabliczka id="7" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="29">
+       </min>
+       <min m="40">
+       </min>
+       <min m="44" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" ulica="Współpracy" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="0"/>
+     <przystanek numer="1" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="1"/>
+    </czasy>
+    <tabliczka id="8" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="30">
+       </min>
+       <min m="41">
+       </min>
+       <min m="45" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="37">
+       </min>
+       <min m="57" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716106" nazwa="Biskupice Podgórne LG Electronics" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="0"/>
+     <przystanek numer="1" id="17104" nazwa="Wiejska" czas="19"/>
+     <przystanek numer="2" id="11707" nazwa="FAT" czas="23"/>
+     <przystanek numer="3" id="12150" nazwa="Wrocławski Park Technologiczny" czas="26"/>
+     <przystanek numer="4" id="112206" nazwa="Kwiska" czas="33"/>
+     <przystanek numer="5" id="12315" nazwa="Wejherowska" czas="36"/>
+     <przystanek numer="6" id="12320" nazwa="Hala Orbita" czas="38"/>
+     <przystanek numer="7" id="23110" nazwa="most Milenijny" czas="39"/>
+     <przystanek numer="8" id="23154" nazwa="Obornicka (Obwodnica)" czas="42"/>
+     <przystanek numer="9" id="23152" nazwa="Irysowa" czas="44"/>
+     <przystanek numer="10" id="9" nazwa="Zajezdnia Obornicka" czas="45"/>
+    </czasy>
+    <tabliczka id="9" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="46" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="24">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="17104" nazwa="Wiejska" ulica="Solskiego" cechy="">
+    <czasy>
+     <przystanek numer="0" id="17104" nazwa="Wiejska" czas="0"/>
+     <przystanek numer="1" id="11707" nazwa="FAT" czas="4"/>
+     <przystanek numer="2" id="12150" nazwa="Wrocławski Park Technologiczny" czas="7"/>
+     <przystanek numer="3" id="112206" nazwa="Kwiska" czas="14"/>
+     <przystanek numer="4" id="12315" nazwa="Wejherowska" czas="17"/>
+     <przystanek numer="5" id="12320" nazwa="Hala Orbita" czas="19"/>
+     <przystanek numer="6" id="23110" nazwa="most Milenijny" czas="20"/>
+     <przystanek numer="7" id="23154" nazwa="Obornicka (Obwodnica)" czas="23"/>
+     <przystanek numer="8" id="23152" nazwa="Irysowa" czas="25"/>
+     <przystanek numer="9" id="9" nazwa="Zajezdnia Obornicka" czas="26"/>
+    </czasy>
+    <tabliczka id="10" mc="19">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="05" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="38" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="11707" nazwa="FAT" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="11707" nazwa="FAT" czas="0"/>
+     <przystanek numer="1" id="12150" nazwa="Wrocławski Park Technologiczny" czas="3"/>
+     <przystanek numer="2" id="112206" nazwa="Kwiska" czas="10"/>
+     <przystanek numer="3" id="12315" nazwa="Wejherowska" czas="13"/>
+     <przystanek numer="4" id="12320" nazwa="Hala Orbita" czas="15"/>
+     <przystanek numer="5" id="23110" nazwa="most Milenijny" czas="16"/>
+     <przystanek numer="6" id="23154" nazwa="Obornicka (Obwodnica)" czas="19"/>
+     <przystanek numer="7" id="23152" nazwa="Irysowa" czas="21"/>
+     <przystanek numer="8" id="9" nazwa="Zajezdnia Obornicka" czas="22"/>
+    </czasy>
+    <tabliczka id="11" mc="4">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="09" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="42" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="47">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12150" nazwa="Wrocławski Park Technologiczny" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12150" nazwa="Wrocławski Park Technologiczny" czas="0"/>
+     <przystanek numer="1" id="112206" nazwa="Kwiska" czas="7"/>
+     <przystanek numer="2" id="12315" nazwa="Wejherowska" czas="10"/>
+     <przystanek numer="3" id="12320" nazwa="Hala Orbita" czas="12"/>
+     <przystanek numer="4" id="23110" nazwa="most Milenijny" czas="13"/>
+     <przystanek numer="5" id="23154" nazwa="Obornicka (Obwodnica)" czas="16"/>
+     <przystanek numer="6" id="23152" nazwa="Irysowa" czas="18"/>
+     <przystanek numer="7" id="9" nazwa="Zajezdnia Obornicka" czas="19"/>
+    </czasy>
+    <tabliczka id="12" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="12" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="45" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="50">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12156" nazwa="Szkocka" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12156" nazwa="Szkocka" czas="0"/>
+     <przystanek numer="1" id="12107" nazwa="Nowodworska" czas="4"/>
+     <przystanek numer="2" id="12109" nazwa="Nowy Dwór" czas="6"/>
+     <przystanek numer="3" id="12123" nazwa="Chociebuska" czas="8"/>
+     <przystanek numer="4" id="12125" nazwa="Nowy Dwór (Rogowska)" czas="9"/>
+     <przystanek numer="5" id="12136" nazwa="NOWY DWÓR (pętla)" czas="10"/>
+    </czasy>
+    <tabliczka id="19" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12107" nazwa="Nowodworska" ulica="Strzegomska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12107" nazwa="Nowodworska" czas="0"/>
+     <przystanek numer="1" id="12109" nazwa="Nowy Dwór" czas="2"/>
+     <przystanek numer="2" id="12123" nazwa="Chociebuska" czas="4"/>
+     <przystanek numer="3" id="12125" nazwa="Nowy Dwór (Rogowska)" czas="5"/>
+     <przystanek numer="4" id="12136" nazwa="NOWY DWÓR (pętla)" czas="6"/>
+    </czasy>
+    <tabliczka id="20" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12109" nazwa="Nowy Dwór" ulica="Strzegomska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12109" nazwa="Nowy Dwór" czas="0"/>
+     <przystanek numer="1" id="12123" nazwa="Chociebuska" czas="2"/>
+     <przystanek numer="2" id="12125" nazwa="Nowy Dwór (Rogowska)" czas="3"/>
+     <przystanek numer="3" id="12136" nazwa="NOWY DWÓR (pętla)" czas="4"/>
+    </czasy>
+    <tabliczka id="21" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="18">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12123" nazwa="Chociebuska" ulica="Chociebuska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12123" nazwa="Chociebuska" czas="0"/>
+     <przystanek numer="1" id="12125" nazwa="Nowy Dwór (Rogowska)" czas="1"/>
+     <przystanek numer="2" id="12136" nazwa="NOWY DWÓR (pętla)" czas="2"/>
+    </czasy>
+    <tabliczka id="22" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="20">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12125" nazwa="Nowy Dwór (Rogowska)" ulica="Rogowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12125" nazwa="Nowy Dwór (Rogowska)" czas="0"/>
+     <przystanek numer="1" id="12136" nazwa="NOWY DWÓR (pętla)" czas="1"/>
+    </czasy>
+    <tabliczka id="23" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="21">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12136" nazwa="NOWY DWÓR (pętla)" ulica="Rogowska" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="4" nazwa="Biskupice Podgórne LG Display - PL. JANA PAWŁA II" obj="na104">
+   <przystanek id="716101" nazwa="Biskupice Podgórne LG Display" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716101" nazwa="Biskupice Podgórne LG Display" czas="0"/>
+     <przystanek numer="1" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="1"/>
+     <przystanek numer="2" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="2"/>
+     <przystanek numer="3" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="3"/>
+     <przystanek numer="4" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="4"/>
+    </czasy>
+    <tabliczka id="5" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="27">
+       </min>
+       <min m="38">
+       </min>
+       <min m="42" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="34">
+       </min>
+       <min m="54" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="20" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716102" nazwa="Biskupice Podgórne LG Chem" ulica="LG" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716102" nazwa="Biskupice Podgórne LG Chem" czas="0"/>
+     <przystanek numer="1" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="1"/>
+     <przystanek numer="2" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="2"/>
+     <przystanek numer="3" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="3"/>
+    </czasy>
+    <tabliczka id="6" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="39">
+       </min>
+       <min m="43" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="35">
+       </min>
+       <min m="55" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716103" nazwa="Biskupice Podgórne LG Innotek" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716103" nazwa="Biskupice Podgórne LG Innotek" czas="0"/>
+     <przystanek numer="1" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="1"/>
+     <przystanek numer="2" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="2"/>
+    </czasy>
+    <tabliczka id="7" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="29">
+       </min>
+       <min m="40">
+       </min>
+       <min m="44" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" ulica="Współpracy" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716105" nazwa="Biskupice Podgórne Dong Seo/Dong Yang" czas="0"/>
+     <przystanek numer="1" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="1"/>
+    </czasy>
+    <tabliczka id="8" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="30">
+       </min>
+       <min m="41">
+       </min>
+       <min m="45" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="37">
+       </min>
+       <min m="57" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="23" ozn="Z" przyp="Z - zjazd do zajezdni przy ulicy Obornickiej przez Most Milenijny, ul. Jeziorańskiego (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="716106" nazwa="Biskupice Podgórne LG Electronics" ulica="Seulska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="716106" nazwa="Biskupice Podgórne LG Electronics" czas="0"/>
+     <przystanek numer="1" id="17104" nazwa="Wiejska" czas="19"/>
+     <przystanek numer="2" id="11707" nazwa="FAT" czas="23"/>
+     <przystanek numer="3" id="12150" nazwa="Wrocławski Park Technologiczny" czas="26"/>
+     <przystanek numer="4" id="112206" nazwa="Kwiska" czas="33"/>
+     <przystanek numer="5" id="12315" nazwa="Wejherowska" czas="36"/>
+     <przystanek numer="6" id="12320" nazwa="Hala Orbita" czas="38"/>
+     <przystanek numer="7" id="23110" nazwa="most Milenijny" czas="39"/>
+     <przystanek numer="8" id="23154" nazwa="Obornicka (Obwodnica)" czas="42"/>
+     <przystanek numer="9" id="23152" nazwa="Irysowa" czas="44"/>
+     <przystanek numer="10" id="9" nazwa="Zajezdnia Obornicka" czas="45"/>
+    </czasy>
+    <tabliczka id="9" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="6">
+       <min m="46" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="24">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="17104" nazwa="Wiejska" ulica="Solskiego" cechy="">
+    <czasy>
+     <przystanek numer="0" id="17104" nazwa="Wiejska" czas="0"/>
+     <przystanek numer="1" id="11707" nazwa="FAT" czas="4"/>
+     <przystanek numer="2" id="12150" nazwa="Wrocławski Park Technologiczny" czas="7"/>
+     <przystanek numer="3" id="112206" nazwa="Kwiska" czas="14"/>
+     <przystanek numer="4" id="12315" nazwa="Wejherowska" czas="17"/>
+     <przystanek numer="5" id="12320" nazwa="Hala Orbita" czas="19"/>
+     <przystanek numer="6" id="23110" nazwa="most Milenijny" czas="20"/>
+     <przystanek numer="7" id="23154" nazwa="Obornicka (Obwodnica)" czas="23"/>
+     <przystanek numer="8" id="23152" nazwa="Irysowa" czas="25"/>
+     <przystanek numer="9" id="9" nazwa="Zajezdnia Obornicka" czas="26"/>
+    </czasy>
+    <tabliczka id="10" mc="19">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="05" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="38" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="11707" nazwa="FAT" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="11707" nazwa="FAT" czas="0"/>
+     <przystanek numer="1" id="12150" nazwa="Wrocławski Park Technologiczny" czas="3"/>
+     <przystanek numer="2" id="112206" nazwa="Kwiska" czas="10"/>
+     <przystanek numer="3" id="12315" nazwa="Wejherowska" czas="13"/>
+     <przystanek numer="4" id="12320" nazwa="Hala Orbita" czas="15"/>
+     <przystanek numer="5" id="23110" nazwa="most Milenijny" czas="16"/>
+     <przystanek numer="6" id="23154" nazwa="Obornicka (Obwodnica)" czas="19"/>
+     <przystanek numer="7" id="23152" nazwa="Irysowa" czas="21"/>
+     <przystanek numer="8" id="9" nazwa="Zajezdnia Obornicka" czas="22"/>
+    </czasy>
+    <tabliczka id="11" mc="4">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="09" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="42" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="47">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12150" nazwa="Wrocławski Park Technologiczny" ulica="Klecińska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12150" nazwa="Wrocławski Park Technologiczny" czas="0"/>
+     <przystanek numer="1" id="112206" nazwa="Kwiska" czas="7"/>
+     <przystanek numer="2" id="12315" nazwa="Wejherowska" czas="10"/>
+     <przystanek numer="3" id="12320" nazwa="Hala Orbita" czas="12"/>
+     <przystanek numer="4" id="23110" nazwa="most Milenijny" czas="13"/>
+     <przystanek numer="5" id="23154" nazwa="Obornicka (Obwodnica)" czas="16"/>
+     <przystanek numer="6" id="23152" nazwa="Irysowa" czas="18"/>
+     <przystanek numer="7" id="9" nazwa="Zajezdnia Obornicka" czas="19"/>
+    </czasy>
+    <tabliczka id="12" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="12" ozn="W" przyp="W - kurs skrócony do Nowego Dworu (do przyst. Wrocławski Park Technologiczny po trasie)">
+       </min>
+       <min m="45" ozn="J" przyp="J -  kurs do pl. Jana Pawła II (do przyst. Kwiska po trasie)">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="50">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12304" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12304" nazwa="Kwiska" czas="0"/>
+     <przystanek numer="1" id="10500" nazwa="PL. JANA PAWŁA II" czas="8"/>
+    </czasy>
+    <tabliczka id="24" mc="7">
+     <dzien nazwa="w dni robocze">
+      <godz h="7">
+       <min m="52">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="10500" nazwa="PL. JANA PAWŁA II" ulica="Sokolnicza" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="5" nazwa="Zajezdnia Obornicka - Kwiska">
+   <przystanek id="9" nazwa="Zajezdnia Obornicka" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="9" nazwa="Zajezdnia Obornicka" czas="0"/>
+     <przystanek numer="1" id="23151" nazwa="Irysowa" czas="2"/>
+     <przystanek numer="2" id="23156" nazwa="Obornicka (Obwodnica)" czas="3"/>
+     <przystanek numer="3" id="23109" nazwa="most Milenijny" czas="6"/>
+     <przystanek numer="4" id="12319" nazwa="Hala Orbita" czas="8"/>
+     <przystanek numer="5" id="12317" nazwa="Wejherowska" czas="11"/>
+     <przystanek numer="6" id="12303" nazwa="Kwiska" czas="13"/>
+    </czasy>
+    <tabliczka id="25" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="43">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="05">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23151" nazwa="Irysowa" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23151" nazwa="Irysowa" czas="0"/>
+     <przystanek numer="1" id="23156" nazwa="Obornicka (Obwodnica)" czas="1"/>
+     <przystanek numer="2" id="23109" nazwa="most Milenijny" czas="4"/>
+     <przystanek numer="3" id="12319" nazwa="Hala Orbita" czas="6"/>
+     <przystanek numer="4" id="12317" nazwa="Wejherowska" czas="9"/>
+     <przystanek numer="5" id="12303" nazwa="Kwiska" czas="11"/>
+    </czasy>
+    <tabliczka id="26" mc="2" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="45">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="07">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23156" nazwa="Obornicka (Obwodnica)" ulica="Nowaka-Jeziorańskiego" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23156" nazwa="Obornicka (Obwodnica)" czas="0"/>
+     <przystanek numer="1" id="23109" nazwa="most Milenijny" czas="3"/>
+     <przystanek numer="2" id="12319" nazwa="Hala Orbita" czas="5"/>
+     <przystanek numer="3" id="12317" nazwa="Wejherowska" czas="8"/>
+     <przystanek numer="4" id="12303" nazwa="Kwiska" czas="10"/>
+    </czasy>
+    <tabliczka id="27" mc="1" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="46">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23109" nazwa="most Milenijny" ulica="most Milenijny" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23109" nazwa="most Milenijny" czas="0"/>
+     <przystanek numer="1" id="12319" nazwa="Hala Orbita" czas="2"/>
+     <przystanek numer="2" id="12317" nazwa="Wejherowska" czas="5"/>
+     <przystanek numer="3" id="12303" nazwa="Kwiska" czas="7"/>
+    </czasy>
+    <tabliczka id="28" mc="3" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="49">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12319" nazwa="Hala Orbita" ulica="Milenijna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12319" nazwa="Hala Orbita" czas="0"/>
+     <przystanek numer="1" id="12317" nazwa="Wejherowska" czas="3"/>
+     <przystanek numer="2" id="12303" nazwa="Kwiska" czas="5"/>
+    </czasy>
+    <tabliczka id="29" mc="1" cechy="nz">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="50">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12317" nazwa="Wejherowska" ulica="Wejherowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12317" nazwa="Wejherowska" czas="0"/>
+     <przystanek numer="1" id="12303" nazwa="Kwiska" czas="2"/>
+    </czasy>
+    <tabliczka id="30" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="01">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="16">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12303" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+ </linia>
+</linie>
