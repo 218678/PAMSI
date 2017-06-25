@@ -1,0 +1,21 @@
+Projekt zaczął się od przeanalizowania tego jak program powinien działać.
+
+Napisanie wstępnych klas, funckji, struktur.
+
+Napisanie funkcji parsujących i wczytujących dane do listy przystanków i macierzy sasiedzctw.
+
+Debugowanie/testowanie poprawności tych funkcji. (strasznie duzo czasu mi to zabralo)
+
+Ostatecznie wczytane dane wyglądają na poprawne. 
+Można je załadować z "oficjalnych" plików mpk. Dzięki czemu szybko można zmienić zestaw danych na inne.
+(można przeglądac listę przystanków, ich dane, można sprawdzać polaczenia pomiędzy przystankami przy pomocy macierzy[przystanek_a][przystanek_b] i w większości były to wartości poprawne - 0, 60, 120..., ale jakieś 20% czasów przekraczało wartość 20.000 sekund (wartość zupełnie inna niż w pliku źródłowym) i ostatecznie nie znalazłem przyczyny.)
+
+Bezskuteczna walka z algorytmem astar - nie byłem w stanie stwierdzić czy wina jest w "danych wejściowych" czy implementacji algorytmu.
+
+Próba implementacji algorytmu przeszukiwania wszerz. Moja implementacja wszerz zaszła dużo dalej niż astar wczeszniej (był łatwiejszy), ale i tak po ~10 iteracjach program wyrzucał segfault.
+
+Podsumowanie:
+Z powodu kończącego się czasu, musze porzucić dalsze prace nad projektem.
+W trakcie pracy nad projektem nauczyłem się tego jak działają grafy, jak funkcjonują algorytmy astar, breadth-first i depth-first. Nabrałem więcej doświadczenia przy programowaniu w c++, prawdopodobnie "podstaw podstaw", ale nie każdy umie wszystko.
+Przy ponownym podejściu w pierwszej chwili zacząłbym od napisania grafu dla uproszczonych danych "przykładowych", tak żeby nie tracić czasu, na wczytywanie setek tysięcy tras i liczenie na to że na pewno są poprawne i dopisaniu do tego grafu kilku algorytmów, zaczynając od tych najprostszych. 
+

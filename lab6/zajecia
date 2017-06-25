@@ -1,0 +1,14 @@
+tablica asocjacyjna
+
+
+1. porównanie różnych funkcji hash'ujących
+  prosta - sumowanie ascii
+  złożona (z literatury) -
+
+2. sprawdzić czas odczytu w obu przypadkach, porównać
+  - dla różnych rozmiarów tablicy (bucket size)
+
+Sprawozdanie:
+  - porównanie
+  - cechy idealnej funckji skrótu(hash'ującej)
+  - jak one wypadają w kontekście idealnej funkcji
