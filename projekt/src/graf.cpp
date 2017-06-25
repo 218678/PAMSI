@@ -16,6 +16,9 @@ void Graf::wczytajPrzystanki() {
     przystanki.push_back(przystanek);
   }
   file_stream.close();
+
+  rozmiar_macierzy = przystanki.size();
+  cout << "wczytano przystanki\n";
 }
 
 void Graf::parsujMacierz(string nazwa_pliku_do_zapisu) {
@@ -36,7 +39,7 @@ void Graf::parsujMacierz(string nazwa_pliku_do_zapisu) {
   // wypelniam zerami
   for (unsigned int i=0; i<przystanki.size(); ++i)
     for (unsigned int j=0; j<przystanki.size(); ++j)
-      fun_macierz_sasiedzctw[i][j] = 0;
+      fun_macierz_sasiedzctw[i][j] = 32767;
 
   // wpisanie danych do macierzy
   while(!file_stream.eof()) {
@@ -44,6 +47,7 @@ void Graf::parsujMacierz(string nazwa_pliku_do_zapisu) {
     wczytajTrase(file_stream, trasaB); // do B, bo pierwsza petla pusta, diff(B-A
     if (trasaA.stop_id != 0 && trasaB.stop_id != 0 && trasaA.trip_id == trasaB.trip_id) {
       fun_macierz_sasiedzctw[znajdz_index_po_stop_id(trasaA.stop_id)][znajdz_index_po_stop_id(trasaB.stop_id)] = difftime(mktime(&trasaB.struct_czas),mktime(&trasaA.struct_czas));
+      // fun_macierz_sasiedzctw[znajdz_index_po_stop_id(trasaB.stop_id)][znajdz_index_po_stop_id(trasaA.stop_id)] = difftime(mktime(&trasaB.struct_czas),mktime(&trasaA.struct_czas));
       //cout << "A:" << trasaA.stop_id << " B:" << trasaB.stop_id << " difftime:" << difftime(mktime(&trasaB.struct_czas),mktime(&trasaA.struct_czas)) << "\n";
     }
     trasaA = trasaB;
@@ -84,7 +88,7 @@ void Graf::wczytajMacierzZPliku(string nazwa_pliku_zrodlowgo) {
   // wypelniam zerami
   for (unsigned int i=0; i<przystanki.size(); ++i)
     for (unsigned int j=0; j<przystanki.size(); ++j)
-      macierz_sasiedzctw[i][j] = 0;
+      macierz_sasiedzctw[i][j] = 32767;
 
   file_stream.open(nazwa_pliku_zrodlowgo);
   for (unsigned int i=0; i<przystanki.size(); ++i) {
@@ -94,15 +98,8 @@ void Graf::wczytajMacierzZPliku(string nazwa_pliku_zrodlowgo) {
     }
   }
   file_stream.close();
-
-  cout << macierz_sasiedzctw[1][1] << "\n";
+  cout << "wczytano z pliku\n";
 }
-
-Graf::Graf() {
-  //wczytajPrzystanki();
-  //wczytajMacierzZPliku("macierz.txt");
-}
-Graf::~Graf() {}
 
 int Graf::znajdz_index_po_stop_id(int fun_stop_id) {
   unsigned int i;
@@ -146,3 +143,269 @@ istream& Graf::wczytajTrase(istream& is, Trasa& trasa) {
   }
   return is;
 }
+
+Graf::Graf() {
+}
+Graf::~Graf() {
+}
+
+bool Graf::czyPoloczone(int a_stop_id, int b_stop_id) {
+  if (macierz_sasiedzctw == nullptr)
+    return false;
+
+  if ( macierz_sasiedzctw[znajdz_index_po_stop_id(a_stop_id), znajdz_index_po_stop_id(b_stop_id)] != 0 )
+    return true;
+
+  return false;
+}
+
+int Graf::zwrocRozmiar_macierzy() {
+  return rozmiar_macierzy;
+}
+
+vector<Przystanek*> Graf::podajSasiadow(int a_stop_id) {
+  vector<Przystanek*> sasiedzi;
+  for (unsigned int i=0; i<przystanki.size(); ++i) {
+    if (macierz_sasiedzctw[znajdz_index_po_stop_id(a_stop_id)][i] != 32767) {
+      sasiedzi.push_back(przystanki[i]);
+    }
+  }
+  return sasiedzi;
+}
+
+
+vector<Przystanek*> Graf::breadthFirst(int a_stop_id, int b_stop_id) {
+  vector<int> odwiedzony(przystanki.size(), 0);
+  vector<int> odleglosc(przystanki.size(), 0);
+  vector<int> rodzic(przystanki.size(), 0);
+  list<Przystanek*> lista;
+  Przystanek* tester;
+  int sasiad_indeks, tester_indeks;
+
+  int indeks = znajdz_index_po_stop_id(a_stop_id);
+  odwiedzony[indeks] = 1;
+  odleglosc[indeks] = 0;
+  rodzic[indeks] = -1;
+  lista.push_back(przystanki[indeks]);
+
+  while (!lista.empty()) {
+
+    for (auto a : lista)
+      cout << "l:" << a->stop_id << " " << a->stop_name << "\n";
+
+
+    tester = lista.front();
+    cout << "test1\n\n";
+
+    lista.pop_front();
+    tester_indeks = znajdz_index_po_stop_id(tester->stop_id);
+
+    vector<Przystanek*> sasiedzi = podajSasiadow(tester_indeks);
+    if (!sasiedzi.empty())  
+    for (auto sasiad : sasiedzi) {
+      cout << "test3\n\n";
+
+      sasiad_indeks = znajdz_index_po_stop_id(sasiad->stop_id);
+      if (odwiedzony[sasiad_indeks] == 0) {
+        odwiedzony[sasiad_indeks] = 1;
+        odleglosc[sasiad_indeks] = odleglosc[tester_indeks] + macierz_sasiedzctw[tester_indeks][sasiad_indeks];
+        rodzic[sasiad_indeks] = tester_indeks;
+        cout << "test2\n";
+        lista.push_back(sasiad);
+        cout << "if\n";
+      }
+      cout << "for\n";
+    }
+    cout << "while\n";
+    odwiedzony[tester_indeks] = 2;
+  }
+  cout << "while end\n";
+
+  // for (int i=0; i<rodzic.size(); ++i) {
+  //   cout << i << ":" << rodzic[i] << "\n";
+  // }
+
+  int wskaznik = b_stop_id;
+  vector<Przystanek*> nitka;
+  while (wskaznik != -1 && wskaznik != 0) {
+    cout << "w:" << wskaznik << ";" << rodzic[wskaznik] << "\n";
+    nitka.push_back(przystanki[wskaznik]);
+    wskaznik = rodzic[wskaznik];
+    cout << "while2\n";
+  }
+  cout << "return\n---\n";
+  return nitka;
+}
+
+vector<Przystanek*> Graf::astar(int a_stop_id, int b_stop_id) {
+
+  Przystanek *a = przystanki[znajdz_index_po_stop_id(a_stop_id)];
+  Przystanek *b = przystanki[znajdz_index_po_stop_id(b_stop_id)];
+
+  vector<Przystanek*> zamkniete;
+  list<Przystanek*> otwarte;
+  std::list<Przystanek*>::iterator it, it_aktualny;
+  // std::list<int>::iterator it;
+  int odleglosc_a_aktualny = 0;
+  int odleglosc_chwilowa = 1000000;
+  int odleglosc_sprawdzana = 1000000;
+  Przystanek *poprzedni = a;
+  Przystanek *aktualny = a;
+  // Przystanek *sukces = nullptr;
+  vector<Przystanek*> sasiedzi = podajSasiadow(a->stop_id);
+  bool sasiad_odwiedzony = false;
+  int sasiad_indeks;
+  int i;
+
+  vector<Przystanek*> rodzice(przystanki.size(), new Przystanek());
+  vector<int> odleglosci(przystanki.size(), 1000000);
+
+
+  otwarte.push_back(a);
+  while (!otwarte.empty()) {
+    i = 0;
+    for (it = otwarte.begin(); it!=otwarte.end(); ++it,++i) {
+      odleglosc_chwilowa = odleglosc_a_aktualny + heuresticFun((*it)->stop_id, b->stop_id) + macierz_sasiedzctw[znajdz_index_po_stop_id(poprzedni->stop_id)][znajdz_index_po_stop_id((*it)->stop_id)];
+      if (odleglosc_chwilowa <= odleglosc_sprawdzana) {
+        aktualny = *it;
+        it_aktualny = it;
+        //odleglosc_sprawdzana = odleglosc_chwilowa;
+        // cout << "A" << odleglosc_a_aktualny << " H" << heuresticFun((*it)->stop_id, b->stop_id) << " M" << macierz_sasiedzctw[znajdz_index_po_stop_id(poprzedni->stop_id)][znajdz_index_po_stop_id((*it)->stop_id)] << "\n";
+
+      }
+    }
+    cout << "\n----------------------------------\nnajblizszy ch" << odleglosc_chwilowa <<  " akt" << aktualny->stop_id << "\n";
+    cout << "sasiedzi";
+    vector<Przystanek*> p;
+    p = podajSasiadow(aktualny->stop_id);
+    for (unsigned int i=0; i<p.size(); ++i)
+      cout << "\n\t" << p[i]->stop_id << p[i]->stop_name << " & ";
+    cout << "\n";
+    cout << "otwarte";
+    for (auto list_otwarte : otwarte)
+      cout << "\n\t" << list_otwarte->stop_id << list_otwarte->stop_name << " & ";
+    cout << "\n";
+
+    // if (aktualny->stop_id == b->stop_id)
+    //   break;
+
+    zamkniete.push_back(aktualny);
+    otwarte.erase(find(otwarte.begin(), otwarte.end(), aktualny));
+    for (auto przystanek : podajSasiadow(aktualny->stop_id))
+      sasiedzi.push_back(przystanek);
+
+    for(unsigned int i=0; i<sasiedzi.size(); ++i) {
+      for (unsigned int j=0; j<zamkniete.size(); ++j) {
+        if ( sasiedzi[i] == zamkniete[j])
+          sasiad_odwiedzony = true;
+      }
+      odleglosc_chwilowa = odleglosc_sprawdzana + macierz_sasiedzctw[znajdz_index_po_stop_id(poprzedni->stop_id)][znajdz_index_po_stop_id(sasiedzi[i]->stop_id)];
+      sasiad_indeks = znajdz_index_po_stop_id(sasiedzi[i]->stop_id);
+
+      if (!sasiad_odwiedzony) {
+        otwarte.push_back(sasiedzi[i]);
+    } else {
+        if (odleglosc_chwilowa < odleglosci[sasiad_indeks + 1]) {
+          odleglosci[sasiad_indeks] = odleglosc_chwilowa;
+          rodzice[sasiad_indeks] = aktualny;
+          sasiad_odwiedzony = false;
+          odleglosc_a_aktualny += odleglosc_chwilowa;
+          poprzedni = aktualny;
+        }
+      }
+
+      // cout << "\nsasiad:\t" << i << "\t" << sasiedzi[i]->stop_id << "\n";
+      // cout << "for2\n" << "aktualny" << aktualny->stop_id << "\n";
+    }
+    sasiad_odwiedzony = false;
+
+    // cout << "zamkniete\n";
+    // if (zamkniete.size() != 0)
+    //   for (unsigned int i=0; i<zamkniete.size(); ++i)
+    //     cout << zamkniete[i]->stop_id << " ";
+    // cout << "otwarte\n";
+    // for (unsigned int i=0; i<otwarte.size(); ++i)
+    //   cout << ( otwarte.pop_front() )->stop_id << " ";
+  }
+  cout << "astar out\n";
+
+  return rodzice;
+}
+
+
+/*vector<Przystanek*> Graf::astar(int a_stop_id, int b_stop_id) {
+
+  Przystanek *a = przystanki[znajdz_index_po_stop_id(a_stop_id)];
+  Przystanek *b = przystanki[znajdz_index_po_stop_id(b_stop_id)];
+
+  vector<Przystanek*> zamkniete;
+  list<Przystanek*> otwarte;
+  std::list<Przystanek*>::iterator it, it_nieodw;
+  // std::list<int>::iterator it;
+  int odleglosc_a_aktualny = 0;
+  int odleglosc_chwilowa = 1000000;
+  int odleglosc_sprawdzana = 1000000;
+  Przystanek *poprzedni = a;
+  Przystanek *aktualny = a;
+  vector<Przystanek*> sasiedzi = podajSasiadow(a->stop_id);
+  bool sasiad_odwiedzony = false;
+  int sasiad_indeks;
+  int i;
+
+  vector<Przystanek*> rodzice(przystanki.size(), new Przystanek());
+  vector<int> odleglosci(przystanki.size(), 1000000);
+
+
+  otwarte.push_back(a);
+  while (otwarte.size() > 0 && aktualny->stop_id != b->stop_id) {
+    i = 0;
+    for (it = otwarte.begin(); it!=otwarte.end(); ++it,++i) {
+      odleglosc_chwilowa = odleglosc_a_aktualny + heuresticFun((*it)->stop_id, b->stop_id) + macierz_sasiedzctw[znajdz_index_po_stop_id(poprzedni->stop_id)][znajdz_index_po_stop_id((*it)->stop_id)];
+      if (odleglosc_chwilowa < odleglosc_sprawdzana) {
+        aktualny = *it;
+        odleglosc_sprawdzana = odleglosc_chwilowa;
+        it_nieodw = it;
+        break;
+      }
+    }
+
+    zamkniete.push_back(aktualny);
+    otwarte.erase(it_nieodw);
+    sasiedzi = podajSasiadow(aktualny->stop_id);
+
+    for(unsigned int i=0; i<sasiedzi.size(); ++i) {
+      for (unsigned j=0; j<zamkniete.size(); ++j) {
+        if ( sasiedzi[i] == zamkniete[j])
+          sasiad_odwiedzony = true;
+          //cout << "for3";
+      }
+      odleglosc_chwilowa = odleglosc_sprawdzana + macierz_sasiedzctw[znajdz_index_po_stop_id(poprzedni->stop_id)][znajdz_index_po_stop_id(sasiedzi[i]->stop_id)];
+      sasiad_indeks = znajdz_index_po_stop_id(sasiedzi[i]->stop_id);
+      if (!sasiad_odwiedzony) {
+        otwarte.push_back(sasiedzi[i]);
+        rodzice[sasiad_indeks] = aktualny;
+        odleglosci[sasiad_indeks] = odleglosc_chwilowa;
+    } else {
+        if (odleglosc_chwilowa < odleglosci[sasiad_indeks + 1]) {
+          odleglosci[sasiad_indeks] = odleglosc_sprawdzana + odleglosc_chwilowa;
+          rodzice[sasiad_indeks] = aktualny;
+        }
+        sasiad_odwiedzony = false;
+      }
+      odleglosc_a_aktualny += macierz_sasiedzctw[znajdz_index_po_stop_id(aktualny->stop_id)][znajdz_index_po_stop_id(poprzedni->stop_id)];
+      poprzedni = aktualny;
+      cout << "\nsasiad:\t" << i << "\t" << sasiedzi[i]->stop_id << "\n";
+      // cout << "for2\n" << "aktualny" << aktualny->stop_id << "\n";
+    }
+    // cout << "while\n";
+
+    // cout << "zamkniete\n";
+    // if (zamkniete.size() != 0)
+    //   for (unsigned int i=0; i<zamkniete.size(); ++i)
+    //     cout << zamkniete[i]->stop_id << " ";
+    // cout << "otwarte\n";
+    // for (unsigned int i=0; i<otwarte.size(); ++i)
+    //   cout << ( otwarte.pop_front() )->stop_id << " ";
+  }
+  return rodzice;
+}*/

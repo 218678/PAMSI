@@ -20,4 +20,4 @@ obj/przystanek.o: inc/przystanek.hh inc/libs.hh
 	g++ $(FLAGS) -c -o obj/przystanek.o src/przystanek.cpp
 
 clean:
-	rm -f obj/*.o a.out data/macierz_test.txt
+	rm -f obj/*.o a.out

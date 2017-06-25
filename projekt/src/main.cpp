@@ -8,8 +8,29 @@ void testujMacierz(Graf graf);
 
 int main() {
   Graf graf;
+  vector<Przystanek*> p;
+  graf.wczytajPrzystanki();
+  // graf.parsujMacierz("data/macierz_test.txt");  // troche trwa
+  graf.wczytajMacierzZPliku("data/macierz_test.txt");  // backup
 
-  testujGraf(graf);
+
+  cout << "\nszukaj\n";
+  p = graf.breadthFirst(1747, 756); // graf.podajSasiadow(1505);//
+
+  cout << "\nnitka\n";
+  if (p.empty())
+  cout << "pusty\n";
+  else
+  cout << "cos jest\n";
+
+  cout << "start: " << graf.przystanki[graf.znajdz_index_po_stop_id(1747)]->stop_id << graf.przystanki[graf.znajdz_index_po_stop_id(1505)]->stop_name << "\n\n";
+  // for (auto a : graf.podajSasiadow(graf.znajdz_index_po_stop_id(1747)) )
+  // cout << "s:" << a->stop_id << " " << a->stop_name << "\n";
+  // cout << "\n";
+
+  for (unsigned int i=0; i<p.size(); ++i)
+    cout << "p:" << p[i]->stop_id << " " << p[i]->stop_name << "->";
+
 
   cout << "\nBYE\n";
   return 0;
@@ -98,4 +119,14 @@ void testujMacierz(Graf graf) {
     cout << "jakie:" << wektor_jakie[i] << " \tile:" << wektor_ile[i] << "\n";
   }
   cout << "Rozne czasy " << rozne_czasy << "\n";
+
+
+  vector<Przystanek*> sasiedzi;
+  sasiedzi = graf.podajSasiadow(1218);
+  for (unsigned int i=0; i<sasiedzi.size(); ++i) {
+    cout << sasiedzi[i]->stop_id << " ";
+  }
+  cout << "\n";
+
+
 }

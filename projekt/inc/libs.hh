@@ -5,6 +5,8 @@
 #include <iostream>
 #include <fstream>
 #include <time.h>
+#include <list>
+#include <algorithm>
 
 using namespace std;
 

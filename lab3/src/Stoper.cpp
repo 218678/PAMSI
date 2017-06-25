@@ -8,7 +8,7 @@ double Stoper::wykonaj_pomiar(ITestowalny *obiekt, int ilosc_pomiarow, int nr_al
 	wyp_ilosc_elem = ilosc_elem;
 	for (int i=0; i<ilosc_pomiarow; i++){
 
-			obiekt->fill(ilosc_elem, rand()%(nr_algorytmu*2));
+			obiekt->fill(ilosc_elem, rand()%((1+nr_algorytmu)*2));
 			start = clock();
 			obiekt->wykonaj_algorytm(nr_algorytmu);
 			stop = clock();
